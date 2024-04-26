@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../Frontend/src/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="title">Billing</div>
+    <body onload="get_products_billing()">
+    <ul id="product_list">
+        <div class="waiting">
+
+            Please wait fetching products      
+        
+        </div>
+    </ul>
+
+    <div class="total-container">
+        Total Cost : <span class="total-cost" id="total-cost">0</span>
+    </div>
+
+    <button onclick="redirectToAnotherPage()">Add New Product</button>
+</body>
+<script src="../Frontend/src/js/app.js"></script>
+
+</html>
